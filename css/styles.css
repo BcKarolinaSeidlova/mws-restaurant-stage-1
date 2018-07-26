@@ -318,6 +318,10 @@ nav h1 a {
     padding-top: 10px;
   }
 
+   #reviews-list li {
+    min-width: 300px;
+   }
+
 }
 
 @media screen and (max-width: 799px) {
@@ -347,5 +351,8 @@ nav h1 a {
     width: calc(100% - 50px);
   }
 
+  #reviews-list li {
+    max-width: 500px;
+   }
 
 }
