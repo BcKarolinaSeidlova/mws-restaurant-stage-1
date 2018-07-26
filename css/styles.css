@@ -165,7 +165,7 @@ nav h1 a {
   min-width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -255,7 +255,7 @@ nav h1 a {
 #reviews-container {
   padding: 30px 40px 80px;
 }
-#reviews-container h2 {
+#reviews-container h3 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
@@ -301,6 +301,13 @@ nav h1 a {
 }
 
 /*resposive media queries*/
+@media screen and (max-width: 499px) {
+  #reviews-list li div p {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+
+}
 @media screen and (max-width: 599px) {
   .filter-options, #restaurants-list {
     flex-direction: column;
