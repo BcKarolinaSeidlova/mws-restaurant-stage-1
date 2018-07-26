@@ -22,14 +22,12 @@
     <section id="map-container">
       <div aria-label="map area" role="application" id="map"></div>
     </section>
-    <section tabindex="0">
+    <section tabindex="0" aria-label="Filter Results">
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <label for="neighborhoods-select">Select neighborhood</label>
         <select id="neighborhoods-select" name="neighborhoods" aria-label="Select neighborhood" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <label for="cuisines-select">Select cuisine</label>
         <select id="cuisines-select" name="cuisines" aria-label="Select cuisine" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
